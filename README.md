@@ -37,9 +37,9 @@ nids-prototype/
 
 1. Install the required dependencies:
 
-   ```
-   pip install scapy
-   ```
+```bash
+pip install scapy
+```
 
 2. Choose the appropriate network interface implementation:
    - Use the `eth0` directory for monitoring external network traffic
@@ -51,14 +51,14 @@ nids-prototype/
 
 To monitor the eth0 interface:
 
-```
+```bash
 cd eth0
 python nids_prototype.py
 ```
 
 To monitor the loopback interface (useful for local testing):
 
-```
+```bash
 cd lo
 python nids_prototype.py
 ```
@@ -69,7 +69,7 @@ python nids_prototype.py
 
 To simulate a port scan (adjust target IP in script first):
 
-```
+```bash
 python port_scan.py
 ```
 
@@ -79,7 +79,7 @@ The simulation will attempt to connect to 15 different ports on the target IP.
 
 To simulate a SYN flood attack (adjust target IP in script first):
 
-```
+```bash
 python syn_flood.py
 ```
 
