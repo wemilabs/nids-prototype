@@ -30,7 +30,7 @@ nids-prototype/
 
 ## Prerequisites
 
-- `Python 3.6 or higher`
+- `Python 3.6` or higher
 - `Scapy` library
 
 ## Setup
